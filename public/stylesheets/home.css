@@ -1,0 +1,440 @@
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+
+
+}
+
+section {
+    background: black;
+}
+
+.logo {
+    max-height: 30px;  
+}
+
+
+#mainNavbar .navbar-brand {
+    color:rgb(34, 126, 143);
+    font-family:'Merienda One', cursive;
+    font-size: 35px;
+}
+
+#mainNavbar .nav-link {
+    color:rgb(85, 129, 102);
+    font-family:  'Rokkitt', serif;
+    font-size: 1.5rem;
+}
+
+#mainNavbar .nav-link:hover {
+    color:rgb(100, 102, 104);
+    font-size: 1.5rem;
+}
+
+.navbar.scrolled{
+    background-color: black;
+    transition: background-color 2s linear;
+    opacity: .8;
+    
+}
+
+/* .container-fluid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}    */
+
+.logo1 {
+    max-height: 5rem;
+    /* padding-right: 10%; */
+    /* margin-bottom: 5%; */
+   
+}
+
+
+.logo2 {
+    max-height: 5rem;
+    padding-right: 10%;
+    /* margin-bottom: 5%; */
+   
+}
+
+svg {
+    color:rgb(34, 126, 143);
+}
+
+
+
+
+/* .container-nav {
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    text-align: center;
+    justify-content: flex-end;
+    align-items: center;
+} */
+
+/* not sure what the above was meant for, probably something I changed/deleted */
+
+#headingGroup .logo2 {
+    max-height: 8.5rem;
+    margin-bottom: 5%;
+}
+
+
+#headingGroup h2 {
+    color: rgb(85, 129, 102);
+    font-family:'Merienda One', cursive;
+    
+}
+
+#headingGroup h3 {
+    color: rgb(34, 126, 143);
+    font-family:'Kaushan Script', cursive;
+    letter-spacing: 1px;
+}
+
+p {
+    font-family: 'Rokkitt', serif;
+    padding: 15px;
+    font-size: 20px;
+}
+
+
+
+.section-light {
+    background-color: gray;
+    /* padding-top: 10%; */
+    /* for the overlap of the mojito image^ */
+
+}
+
+/* .headerImage {
+    padding-left: 10%;
+   ^ causes a cool overlap of the p text but may make it difficult to read
+} */
+
+#firstSection {
+    font-family:'Merienda One', cursive;
+}
+
+
+.menu {
+    color: rgb(243, 161, 10);
+}
+
+.menu-item {
+    margin-bottom: 25px;
+    max-width: 100%;
+}
+
+.menu-text {
+    font-family: 'Rokkitt', sans-serif;
+}
+
+/* #menu-list {
+    padding: 10px 50px;
+    display: flex;
+    justify-content: center;
+
+} */
+
+.container2 {
+    /* padding: 15px 25px; */
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content:space-evenly;
+    align-items: center;
+    /* margin-left: 10%; */
+}
+
+
+
+.container2 {
+    /* padding: 15px 25px; */
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 10%;
+    color: rgb(100, 102, 104);
+}
+
+
+.panel {
+    padding: 15px 25px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+}
+
+
+/* .col-lg-6 {
+    margin-bottom: -5%;
+} */
+
+/* second section stuff below */
+
+#secondSection h2 {
+    font-family: 'Merienda One', cursive;
+    padding: 5px 5px;
+    margin-bottom: 5%;
+    color: rgb(34, 126, 143);
+}
+
+#secondSection {
+    padding-top: 1em;
+}
+
+
+/* .secondSectionImage {
+    padding: 0 2.5%;
+    height: 400px;
+    margin-bottom: 5%;
+} */
+
+#thirdSection h2 {
+    font-family: 'Merienda One', cursive;
+    padding: 15px 15px 5px;
+    margin-top: 5%;
+    color: rgb(85, 129, 102);
+    margin-bottom: 2em;
+}
+
+#thirdSectionHeader h2{
+    color: rgb(85, 129, 102);
+}
+
+.thirdSectionImage {
+    height: 400px;
+    margin-top: 5%;
+    text-align: center;
+    
+}
+
+.review {
+    font-size: 15px;
+}
+
+
+
+#fourthSection h2 {
+    font-family: 'Merienda One', cursive;
+    padding: 15px 15px 5px;
+    
+}
+
+#fourthSection {
+    padding-bottom: 2rem;
+}
+
+.carousel-inner {
+    width: 500px;
+    height: 400px;
+}
+
+.carousel-inner{
+    margin: auto;
+}
+
+/* .carousel-control-next{
+    margin-right: -60%;
+}
+
+#bar{
+    padding-left: 3%;
+} */
+
+
+
+
+#pHeaders {
+    font-family: 'Goblin One', cursive;
+    color: black;
+}
+
+
+#pHeaders h2 {
+    padding-top: 20%;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+#pHeaders h1 {
+    font-weight: 100;
+    font-size: 5rem;
+}
+
+#button {
+    margin: 125px 20px;
+    border-width: 2px;
+    border-radius: 15px;
+    height: 25%;
+    width: 20%;
+    font-size: 35px;
+}
+
+@media (max-width: 1000px) {
+    #pHeaders h1 {
+        font-weight: 100;
+        font-size: 2.5rem;
+    }
+
+    #pHeaders h2 {
+        padding-top: 20%;
+        font-weight: 100;
+        font-size: 1.25rem;
+    }
+
+
+    #button {
+        margin: 125px, 20px;
+        border-width: 2px;
+        border-radius: 15px;
+        height: 25%;
+        width: 20%;
+        font-size: 25px;
+    }
+    
+}
+
+@media (max-width: 760px) {
+    #button {
+        margin: 125px, 20px;
+        border-width: 2px;
+        border-radius: 15px;
+        height: 25%;
+        width: 20%;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 450px) {
+    #button {
+        margin: 125px, 20px;
+        border-width: 2px;
+        border-radius: 15px;
+        height: 25%;
+        width: 20%;
+        font-size: 10px;
+    }
+}
+
+
+
+#fifthSection h2 {
+    font-family: 'Merienda One', cursive;
+    padding: 15px 15px 5px;
+}
+
+#fifthSection h5 {
+    color: rgb(34, 126, 143);
+    font-family:'Kaushan Script', cursive;
+    letter-spacing: 1px;
+
+}
+
+#fifthSection p {
+    font-size: 15px;
+}
+
+#fifthSection .one, .mini {
+    color:rgb(85, 129, 102);
+}
+
+#fifthSection .two, .colon {
+    color:rgb(34, 126, 143);
+}
+
+#fifthSection .three, .city, #media-bottom {
+    color:rgb(243, 161, 10);
+}
+
+
+
+/* .mini {
+    color:rgb(85, 129, 102)
+}
+
+
+.colon {
+    color:rgb(34, 126, 143);
+} */
+
+/* .city {
+    color:rgb(243, 161, 10);
+}
+
+#media-bottom {
+    color:rgb(243, 161, 10);
+} */
+
+.nav {
+    /* The image used */
+    /* background-image: url("/imgs/treesunset3.png"); */
+
+    /* Full height */
+    height: 100px;
+
+    /* Create the parallax scrolling effect */
+    /* opacity: 0.80; */
+    /* background-attachment: local;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover; */
+  }
+
+  /* something about THIS image makes the page go wonky */
+  .parallax2 {
+    /* The image used */
+    background-image: url("https://res.cloudinary.com/dzhxoxnyr/image/upload/v1647901541/The%20Grove/photo-1490474418585-ba9bad8fd0ea_cknbei.jpg");
+
+    /* Full height */
+    height: 800px;
+    /* width: 85rem; */
+   
+
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax3 {
+    /* The image used */
+    background-image: url("/imgs/limetrees.png");
+
+    /* Full height */
+    height: 800px;
+    /* opacity: 80%; */
+
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+ 
+ 

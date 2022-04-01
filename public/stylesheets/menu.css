@@ -1,0 +1,179 @@
+body {
+    height: 100%;
+    padding: auto;
+    margin: auto;
+    /* background-image: url("/imgs/menu_background.jpeg"); */
+    background-size: inherit;
+
+}
+
+section {
+    background: black;
+}
+
+footer{
+    height: 100px;
+}
+
+
+.section-light {
+    background-color: gray;
+    /* padding-top: 10%; */
+    /* for the overlap of the mojito image^ */
+
+}
+
+
+
+.logo {
+    max-height: 30px;  
+}
+
+
+#mainNavbar .navbar-brand {
+    color:rgb(34, 126, 143);
+    font-family:'Merienda One', cursive;
+    font-size: 35px;
+}
+
+#mainNavbar .nav-link {
+    color:rgb(85, 129, 102);
+    font-family:  'Rokkitt', serif;
+    font-size: 1.5rem;
+}
+
+#mainNavbar .nav-link:hover {
+    color:rgb(100, 102, 104);
+    font-size: 1.5rem;
+}
+
+/* .container-fluid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}    */
+
+.logo1 {
+    max-height: 5rem;
+    /* padding-right: 10%; */
+    /* margin-bottom: 5%; */
+   
+}
+
+
+.logo2 {
+    max-height: 5rem;
+    padding-right: 10%;
+    /* margin-bottom: 5%; */
+   
+}
+
+svg {
+    color:rgb(34, 126, 143);
+}
+
+#party-title, #contact-title{
+    padding-top: 2rem;
+    font-family: 'Goblin One', cursive;
+
+}
+
+#menu-title, #about-title{
+    font-family: 'Goblin One', cursive;
+
+}
+
+#top{
+    margin-top: 2%;
+}
+
+#party{
+    background-image: url("/imgs/party_background2.jpeg");
+
+}
+
+
+#title, #dad, #daughter{
+    margin-top: 5%;
+    padding: 5%;
+    font-family:'Merienda One', cursive;
+
+}
+
+
+
+h3, .food {
+    font-family: 'Goblin One', cursive;
+    font-size: 20px;
+
+}
+
+h5, ul, #number {
+    font-family:'Kaushan Script', cursive;
+}
+
+h5 {
+    font-size: 25px;
+    color: rgb(133, 132, 132);
+}
+
+p, h6, li {
+    font-family: 'Rokkitt', serif;
+
+}
+
+p, h6 {
+    font-size: 19px;
+    color: rgb(133, 132, 132);
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+.food, .three, #title{
+    color:rgb(243, 161, 10);
+
+}
+
+.special, .two, #contact-title, #dad{
+    color:rgb(85, 129, 102);
+
+}
+
+.sig, .one, #party-title, #daughter {
+    color:rgb(34, 126, 143);
+}
+
+#container1 {
+    padding: 0px 10px 40px 50px;
+}
+
+#container2 {
+    padding: 0% 5% 5% 10%;
+}
+
+#container3 {
+    padding: 0px 10px 30px 50px;
+    
+}
+
+.party-form{
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+}
+
+#submit{
+    margin-top: 2%;
+}
+
+
+
+#pale{
+    background-color: bisque;
+}
+
+#right{
+    text-align: right;
+}

@@ -1,0 +1,74 @@
+<% layout('layouts/boilerplate') %> 
+
+
+
+
+<body style="background-image: url(/imgs/party_background.jpeg); background-size: cover;">
+        <section class="container-fluid" id="party">
+            <div class="container">
+            <h1 class="text-center" id="party-title">Party with Us!</h1>
+            <p style="margin-top: 20px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui nam similique libero voluptas nobis unde
+                sit fugit iste natus accusamus voluptate ipsa excepturi, voluptates perferendis ex labore odit? Atque,
+                aut!</p>
+
+            <div class="col-md-6 offset-md-3" style="padding-top: 10px;">
+            <form action="/grove/random" method="POST" style="color: rgb(1, 8, 37); font-weight: 700;" class="party-form">
+                <div class="row">
+                    <div class="col">
+                      <input for="first" type="text" class="form-control" name="event[first]" placeholder="First name" aria-label="First name" required autofocus>
+                    </div>
+                    <div class="col">
+                      <input for="last" type="text" class="form-control" name="event[last]" placeholder="Last name" aria-label="Last name"required>
+                    </div>
+                  </div>
+                  <br>
+
+                  <div class="row">
+                    <div class="col">
+                      <input for="email" type="text" class="form-control" name="event[email]" placeholder="Email" aria-label="Email" required>
+                    </div>
+                    <div class="col">
+                      <input for="phone" type="text" class="form-control" name="event[phone]" placeholder="Phone Number" aria-label="Phone Number" required>
+                    </div>
+                  </div>
+                  <br>
+
+                  <div class="row">
+                    <div class="col">
+                        <label for="number" class="form-label">Number of Guests</label>
+                        <input type="number" class="form-control" name="event[guests]" placeholder="Guest number (max 20)" aria-label="Number of Guests" min="3" max="20" required>
+                    </div>
+                    <div class="col">
+                        <label for="date" class="form-label">Desired Date</label>
+                      <input type="date" class="form-control" name="event[date]" placeholder="Date" aria-label="Desired Date" required>
+                    </div>
+                  </div>
+                  <br>
+                  <br>
+
+                  <select for="event" class="form-select"  name="event[type]" aria-label="Default select example">
+                    <option selected>Select Event Type</option>
+                    <option value="Birthday">Birthday</option>
+                    <option value="Reception">Reception</option>
+                    <option value="Graduation">Graduation</option>
+                    <option value="Bachelor/Bachelorette">Bachelor/Bachelorette</option>
+                    <option value="Retirement">Retirement</option>
+                    <option value="Other">Other</option>
+                  </select>
+                  <br>
+
+                <div class="mb-3">
+                    <label for="description">Description</label>
+                    <textarea class="form-control" name="event[description]" placeholder="Leave a comment here" required>Tell us your vision!</textarea> 
+                  </div>
+
+                
+                <button class="btn btn-success" id="submit">Party!</button> 
+
+            </form>
+        </div>  
+        </div>  
+        </section>
+   
+
+

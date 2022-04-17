@@ -1,4 +1,11 @@
 {
+  "name": "thegrove",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
   "dependencies": {
     "connect-flash": "^0.1.1",
     "dotenv": "^16.0.0",

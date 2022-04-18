@@ -256,14 +256,29 @@ p {
 
 #fourthSection {
     padding-bottom: 2rem;
+    height: 450px;
+
+    
 }
+
+
 
 
 
 .carousel-inner{
+    margin: auto;
+    max-width: 400px;
+    max-height: 300px;
+}
+
+.carousel-control-prev, .carousel-control-next{
     margin-left: auto;
     margin-right: auto;
 }
+
+
+
+
 
 
 #pHeaders {

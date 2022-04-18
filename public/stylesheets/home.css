@@ -258,24 +258,12 @@ p {
     padding-bottom: 2rem;
 }
 
-.carousel-inner {
-    width: 500px;
-    height: 400px;
-}
+
 
 .carousel-inner{
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-/* .carousel-control-next{
-    margin-right: -60%;
-}
-
-#bar{
-    padding-left: 3%;
-} */
-
-
 
 
 #pHeaders {
